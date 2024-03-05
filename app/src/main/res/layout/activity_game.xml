@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity">
+
+
+    <Chronometer
+        android:id="@+id/simpleChronometer"
+        android:layout_width="75dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="28dp"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="56dp"
+        android:text="0"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="27dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="4dp"
+        android:src="@drawable/coin"
+        app:layout_constraintEnd_toStartOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="564dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/blue_tale" />
+
+    <ImageButton
+        android:id="@+id/imageButton17"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginBottom="160dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/blue_tale" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginBottom="464dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/blue_tale" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginBottom="564dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/blue_tale" />
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="360dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/blue_tale" />
+
+    <ImageButton
+        android:id="@+id/imageButton19"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="160dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/blue_tale" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="464dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/blue_tale" />
+
+    <ImageButton
+        android:id="@+id/imageButton18"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="212dp"
+        android:layout_marginBottom="160dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/blue_tale" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="464dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/blue_tale" />
+
+    <ImageButton
+        android:id="@+id/imageButton0"
+        style="RoundedCornerButton"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="564dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/blue_tale" />
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="360dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/blue_tale" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="360dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/blue_tale" />
+
+    <ImageButton
+        android:id="@+id/imageButton16"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="160dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/blue_tale" />
+
+    <ImageButton
+        android:id="@+id/imageButton12"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="264dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/blue_tale" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="564dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/blue_tale" />
+
+    <ImageButton
+        android:id="@+id/imageButton15"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="260dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/blue_tale" />
+
+    <ImageButton
+        android:id="@+id/imageButton13"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginBottom="264dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/blue_tale" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="464dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/blue_tale" />
+
+    <ImageButton
+        android:id="@+id/imageButton14"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="264dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/blue_tale" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginBottom="360dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/blue_tale" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="41dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="27dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/clock" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text=""
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
